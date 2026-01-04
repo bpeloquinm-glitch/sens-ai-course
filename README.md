@@ -9,8 +9,8 @@ This course teaches the **Sens-AI Framework**, a practical 5-step approach to us
 
 ## Additional Resources
 
-- [Take-Home Exercise PDF](Sens-AI_Course_Take-Home_Exercise.pdf) — Build a Math Quiz game with AI
-- [Sens-AI Exercises PDF](Sens-AI-Exercises.pdf) — Take-home exercises from *Head First C#*
+- [A Five Step Framework for Effective AI-Assisted Coding PDF](A Five Step Framework for Effective AI-Assisted Coding.pdf) — The complete slide deck from this course
+- [Take-Home Exercise PDF](Sens-AI_Course_Take-Home_Exercise.pdf) — A PDF with the take-home exercise at the end of the course
 
 ---
 
