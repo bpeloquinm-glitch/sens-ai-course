@@ -6,6 +6,14 @@ This repo contains code samples and exercises for the O'Reilly live training cou
 
 This course teaches the **Sens-AI Framework**, a practical 5-step approach to using AI tools effectively for real coding work: **Context**, **Research**, **Problem Framing**, **Critical Thinking**, and **Refining**.
 
+
+## Additional Resources
+
+- [Take-Home Exercise PDF](Sens-AI_Course_Take-Home_Exercise.pdf) — Build a Math Quiz game with AI
+- [Sens-AI Exercises PDF](Sens-AI-Exercises.pdf) — Take-home exercises from *Head First C#*
+
+---
+
 ## Code Samples
 
 Code samples are provided in three languages. Use whichever you're most comfortable with:
@@ -15,11 +23,6 @@ Code samples are provided in three languages. Use whichever you're most comforta
 | Guy class | [Guy.cs](csharp/Guy.cs) | [Guy.java](java/Guy.java) | [guy.py](python/guy.py) |
 | Main program (with comments to replace) | [Program.cs](csharp/Program.cs) | [Main.java](java/Main.java) | [main.py](python/main.py) |
 | Refactoring sample | [RefactorSample.cs](csharp/RefactorSample.cs) | [RefactorSample.java](java/RefactorSample.java) | [refactor_sample.py](python/refactor_sample.py) |
-
-## Additional Resources
-
-- [Take-Home Exercise PDF](Sens-AI_Course_Take-Home_Exercise.pdf) — Build a Math Quiz game with AI
-- [Sens-AI Exercises PDF](Sens-AI-Exercises.pdf) — Take-home exercises from *Head First C#*
 
 ---
 
@@ -403,16 +406,6 @@ AI can suggest changes to your code. Here are a few things to try:
 - Implement robust error handling and input validation. Create a separate method to validate user input, ensuring it handles various edge cases (e.g., non-numeric input, extremely large numbers, negative numbers). Generate unit tests for this validation method, including tests for different types of invalid input.
 
 ---
-
-## About the Course
-
-This course is divided into three parts:
-
-1. **The Journey to Sens-AI** — See what AI can do, where it goes wrong, and why we need a framework that teaches developers better habits.
-
-2. **Setting the AI Up to Succeed** — Learn how to give the AI what it needs to be useful, with clear goals, the right context, and your own research.
-
-3. **Becoming a Better Developer** — Practice problem framing, refining, and critical thinking so you can balance fast AI-assisted coding with the careful judgment that good development demands.
 
 ## Additional Resources
 
