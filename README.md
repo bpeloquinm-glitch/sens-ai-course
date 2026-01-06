@@ -55,7 +55,7 @@ Submit your prompt. The AI should give you a response anticipating your next pro
 Start your next prompt by entering this text, choosing either C#, Java, or Python:
 
 ```
-Here are the requirements for a [C#/Java/Python] project. Replace all of the comments with working code that does what each comment describes.
+Here's the starting point for a [C#/Java/Python] project. Replace all of the comments with working code that does what each comment describes. The code should add an if statement after an else to check for more than one condition. It first checks if whichGuy is Joe, then it checks if whichGuy is Bob, and if neither are true, it writes a line to the console.
 ```
 
 Press shift-enter twice to add two lines, then copy and paste the main program from one of these files:
