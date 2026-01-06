@@ -6,6 +6,14 @@ This repo contains code samples and exercises for the O'Reilly live training cou
 
 This course teaches the **Sens-AI Framework**, a practical 5-step approach to using AI tools effectively for real coding work: **Context**, **Research**, **Problem Framing**, **Critical Thinking**, and **Refining**.
 
+
+## Slides from the Course
+
+- [A Five Step Framework for Effective AI-Assisted Coding PDF](A+Five+Step+Framework+for+Effective+AI-Assisted+Coding.pdf) — The complete slide deck from this course
+- [Take-Home Exercise PDF](Sens-AI+Course+Take-Home+Exercise.pdf) — A PDF with the take-home exercise at the end of the course
+
+---
+
 ## Code Samples
 
 Code samples are provided in three languages. Use whichever you're most comfortable with:
@@ -267,23 +275,153 @@ It's a way to understand the problem better—one step at a time.
 
 ---
 
-## About the Course
+## Take-Home Exercise: Build a Math Quiz Game
 
-This course is divided into three parts:
+This is a longer take-home project for you to practice AI skills. You can do it in any language (C#, Java, or Python), using whatever AI tool works best for you.
 
-1. **The Journey to Sens-AI** — See what AI can do, where it goes wrong, and why we need a framework that teaches developers better habits.
+> ⚠️ **Generating code is uncertain!** Always review AI-generated code carefully. AI tools may sometimes produce code that doesn't compile or work as expected. You're in charge—apply the best practices and critical thinking skills from the course. Remember: iterate, iterate, iterate.
 
-2. **Setting the AI Up to Succeed** — Learn how to give the AI what it needs to be useful, with clear goals, the right context, and your own research.
+For detailed step-by-step instructions, see the [Take-Home Exercise PDF](Sens-AI_Course_Take-Home_Exercise.pdf).
 
-3. **Becoming a Better Developer** — Practice problem framing, refining, and critical thinking so you can balance fast AI-assisted coding with the careful judgment that good development demands.
+### Step 1: Create a new project in your favorite IDE
+
+**Before you begin:** Make sure you have your language's development environment set up. You can use any IDE—Visual Studio Code, Visual Studio, IntelliJ, PyCharm, or whatever you prefer. If your IDE has an AI extension (like GitHub Copilot), make sure it's installed.
+
+- **For Java:** Create a new Java project. If you're using VS Code, choose "Java: Create Java Project..." from the Command Palette. If you're using Maven, the `maven-archetype-quickstart` archetype works well. Name your main class `MathQuiz`.
+- **For C#:** Create a new Console App project. If you're using VS Code, choose ".NET: New Project..." from the Command Palette. If you're using Visual Studio, choose "Console App" from the new project templates. Add an MSTest or NUnit test project to your solution.
+- **For Python:** Create a new folder for your project and add a file called `math_quiz.py`. Optionally, create a virtual environment with `python -m venv venv`. For unit tests, you'll use pytest—install it with `pip install pytest`.
+
+### Step 2: Use AI to code a simple game
+
+You can use this comment as a prompt in an AI chat, or paste it directly into your code file if your IDE has an AI extension like GitHub Copilot.
+
+**Java or C#:**
+```
+// Create a console application that quizzes the user with
+// random math problems. Generate two random numbers from
+// 1 to 9 and pick either addition or multiplication.
+// Prompt for an answer, congratulate if correct, retry
+// if incorrect. Exit if user enters a non-numeric value.
+// Put the game in a class that is testable, with public
+// methods to generate operators, numbers, and questions.
+```
+
+**Python:**
+```
+# Create a console application that quizzes the user with
+# random math problems. Generate two random numbers from
+# 1 to 9 and pick either addition or multiplication.
+# Prompt for an answer, congratulate if correct, retry
+# if incorrect. Exit if user enters a non-numeric value.
+# Put the game in a class that is testable, with public
+# methods to generate operators, numbers, and questions.
+```
+
+### Step 3: Review the AI's output
+
+- If you used an AI chat, review the generated code carefully before copying it into your IDE. Look for a suggestion that has public methods that can be tested, including a method that generates a question.
+- If you're using an AI extension in your IDE (like GitHub Copilot), review the suggested code carefully before accepting it.
+- If you don't like your options, modify the prompt. Iterate until you have a suggestion you like.
+- Accept or copy the suggestion into your project. Run the app and make sure it works.
+
+### Step 4: Generate unit tests
+
+Add this comment to your test file (or use it as a prompt in your AI chat):
+
+**Java or C#:**
+```
+// Create unit tests for the math quiz game. Test
+// random number generation, operation selection,
+// and answer checking.
+```
+
+**Python:**
+```
+# Create unit tests for the math quiz game. Test
+# random number generation, operation selection,
+# and answer checking.
+```
+
+Make sure the code builds with no problems. If there are problems, either fix them by hand or delete the code and ask the AI to regenerate the unit tests.
+
+### Step 5: Run the unit tests and fix them if needed
+
+Run your unit tests:
+- **Java:** Use your IDE's test runner, or run `mvn test` from the command line
+- **C#:** Use the Testing view in VS Code, or run `dotnet test` from the command line
+- **Python:** Run `pytest` from the command line
+
+If a test doesn't pass, ask the AI to help you fix it:
+
+```
+Why didn't this test pass?
+```
+
+### Step 6: Ask the AI to test edge cases
+
+Add this comment to generate an edge case test:
+
+**Java or C#:**
+```
+// Add a unit test to check an edge case
+```
+
+**Python:**
+```
+# Add a unit test to check an edge case
+```
+
+Then ask the AI to generate additional edge case tests:
+
+```
+Add unit tests for additional edge cases
+```
+
+### Step 7: Refine and document the code
+
+Ask the AI to add documentation. Use one of these prompts:
+
+**For Java:**
+```
+Add JavaDoc comments to all methods
+```
+
+**For C#:**
+```
+Add XMLDoc comments to all methods
+```
+
+**For Python:**
+```
+Add docstrings to all functions and classes
+```
+
+Then get a full explanation of your refined code:
+
+```
+Explain this entire app
+```
+
+### Step 8: Use AI to modify your code
+
+AI can suggest changes to your code. Here are a few things to try:
+
+- Split the code that generates the question into two public functions, one to generate a question and one to check the answer. Add unit tests for both.
+- Modify the app so it keeps track of how many questions in a row the player gets right. Remember the longest question streak. Implement this with public methods and generate unit tests for those methods.
+- Implement robust error handling and input validation. Create a separate method to validate user input, ensuring it handles various edge cases (e.g., non-numeric input, extremely large numbers, negative numbers). Generate unit tests for this validation method, including tests for different types of invalid input.
+
+---
 
 ## Additional Resources
 
-- [*Head First C#* (5th Edition)](https://learning.oreilly.com/library/view/head-first-c/9781098141783/) — The code samples in this repo are from Chapter 3
-- [*Learning GitHub Copilot*](https://learning.oreilly.com/library/view/learning-github-copilot/9781098164645/) by Brent Laster
-- [*AI-Assisted Programming*](https://learning.oreilly.com/library/view/ai-assisted-programming/9781098164553/) by Tom Taulli
+- The material in this course is covered in my O’Reilly report, [Critical Thinking Habits for Coding with AI]([url](https://learning.oreilly.com/library/view/critical-thinking-habits/0642572243326/)) (O’Reilly, 2025) and my [O’Reilly Radar series on the Sens-AI Framework]([url](https://www.oreilly.com/radar/the-sens-ai-framework/))
+— Many of the code samples in this cousre are adapted from [*Head First C#* (5th Edition)](https://learning.oreilly.com/library/view/head-first-c/9781098141783/) 
+- [*Learning GitHub Copilot*](https://learning.oreilly.com/library/view/learning-github-copilot/9781098164645/) by Brent Laster – this book is an amazing resource for learning to use Copilot (I wrote the foreword for it)
+- [*AI-Assisted Programming*](https://learning.oreilly.com/library/view/ai-assisted-programming/9781098164553/) by Tom Taulli – another fantastic resource, and the chapter prompt engineering is a phenomenal way to follow up on this course
 - [*Beyond Vibe Coding*](https://learning.oreilly.com/library/view/beyond-vibe-coding/9798341634749/) by Addy Osmani
 - [*Prompt Engineering for Generative AI*](https://learning.oreilly.com/library/view/prompt-engineering-for/9781098153427/) by James Phoenix & Mike Taylor
+
+---
 
 ## Contact
 
