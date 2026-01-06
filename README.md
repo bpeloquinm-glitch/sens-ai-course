@@ -9,8 +9,8 @@ This course teaches the **Sens-AI Framework**, a practical 5-step approach to us
 
 ## Slides from the Course
 
-- [A Five Step Framework for Effective AI-Assisted Coding PDF](A+Five+Step+Framework+for+Effective+AI-Assisted+Coding.pdf) — The complete slide deck from this course
-- [Take-Home Exercise PDF](Sens-AI+Course+Take-Home+Exercise.pdf) — A PDF with the take-home exercise at the end of the course
+- [A Five Step Framework for Effective AI-Assisted Coding PDF](A%20Five%20Step%20Framework%20for%20Effective%20AI-Assisted%20Coding%202026-01-08.pdf) — The complete slide deck from this course
+- [Take-Home Exercise PDF](Sens-AI%20Course%20Take-Home%20Exercise.pdf) — A PDF with the take-home exercise at the end of the course
 
 ---
 
@@ -55,7 +55,7 @@ Submit your prompt. The AI should give you a response anticipating your next pro
 Start your next prompt by entering this text, choosing either C#, Java, or Python:
 
 ```
-Here are the requirements for a C# project. Use this to create a new [C#/Java/Python] project.
+Here's the starting point for a [C#/Java/Python] project. Replace all of the comments with working code that does what each comment describes. The code should add an if statement after an else to check for more than one condition. It first checks if whichGuy is Joe, then it checks if whichGuy is Bob, and if neither are true, it writes a line to the console.
 ```
 
 Press shift-enter twice to add two lines, then copy and paste the main program from one of these files:
