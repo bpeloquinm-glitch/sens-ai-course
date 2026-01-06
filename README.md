@@ -40,7 +40,7 @@ Open an AI tool like [ChatGPT](https://chatgpt.com/), [Copilot](https://copilot.
 Give the first prompt, choosing either C#, Java, or Python:
 
 ```
-Here's a C# class. Use it for my next prompt, which will describe a new [C#/Java/Python] project to build.
+Here's a class. Use it for my next prompt, which will describe a new [C#/Java/Python] project to build.
 ```
 
 Press shift-enter twice to add two lines to the end of the chat, then copy and paste the Guy class from one of these files:
