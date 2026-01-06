@@ -40,7 +40,7 @@ Open an AI tool like [ChatGPT](https://chatgpt.com/), [Copilot](https://copilot.
 Give the first prompt, choosing either C#, Java, or Python:
 
 ```
-Here's a C# class. Use it for my next prompt, which will describe a new [C#/Java/Python] project to build.
+Here's a class. Use it for my next prompt, which will describe a new project to build.
 ```
 
 Press shift-enter twice to add two lines to the end of the chat, then copy and paste the Guy class from one of these files:
@@ -55,7 +55,7 @@ Submit your prompt. The AI should give you a response anticipating your next pro
 Start your next prompt by entering this text, choosing either C#, Java, or Python:
 
 ```
-Here's the starting point for a [C#/Java/Python] project. Replace all of the comments with working code that does what each comment describes. The code should add an if statement after an else to check for more than one condition. It first checks if whichGuy is Joe, then it checks if whichGuy is Bob, and if neither are true, it writes a line to the console.
+Here's the starting point for a project. Replace all of the comments with working code that does what each comment describes. The code should add an if statement after an else to check for more than one condition. It first checks if whichGuy is Joe, then it checks if whichGuy is Bob, and if neither are true, it writes a line to the console. Press shift-enter twice to add two lines.
 ```
 
 Press shift-enter twice to add two lines, then copy and paste the main program from one of these files:
