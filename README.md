@@ -18,7 +18,8 @@ Code samples are provided in three languages. Use whichever you're most comforta
 
 ## Additional Resources
 
-- [Sens-AI Exercises PDF](Sens-AI-Exercises.pdf) — Take-home exercises from *Head First C#*
+- [A Five Step Framework for Effective AI-Assisted Coding 2026-01-08](A+Five+Step+Framework+for+Effective+AI-Assisted+Coding+2026-01-08.pdf) - The slide deck from the 2025-01-08 training session
+- [Sens-AI Course Take-Home Exercise.pdf](Sens-AI+Course+Take-Home+Exercise.pdf) — Take-home exercise so you can continue learning on your own
 
 ---
 
