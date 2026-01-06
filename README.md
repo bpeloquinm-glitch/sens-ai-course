@@ -55,7 +55,7 @@ Submit your prompt. The AI should give you a response anticipating your next pro
 Start your next prompt by entering this text, choosing either C#, Java, or Python:
 
 ```
-Here are the requirements for a C# project. Use this to create a new [C#/Java/Python] project.
+Here are the requirements for a [C#/Java/Python] project. Replace all of the comments with working code that does what each comment describes.
 ```
 
 Press shift-enter twice to add two lines, then copy and paste the main program from one of these files:
